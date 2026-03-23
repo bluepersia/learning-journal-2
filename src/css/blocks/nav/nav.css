@@ -1,0 +1,18 @@
+.nav__list {
+  display: flex;
+  column-gap: 2em;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-black-2);
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: color 300ms;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--color-gray);
+}
