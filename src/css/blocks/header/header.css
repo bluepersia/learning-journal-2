@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  padding: 1.06rem 0;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-link {
+  display: flex;
+  column-gap: 0.18em;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo-link:hover,
+.header__logo-link:focus {
+  filter: brightness(140%);
+}
+
+.header__logo-icon {
+  width: 1.43em;
+  height: 1.43em;
+}
+
+.header__logo-text {
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  font-size: 0.84rem;
+  font-weight: bold;
+}
+
+@media (min-width: 1000px) {
+  .header__logo-icon {
+    width: 2.125em;
+    height: 2.125em;
+  }
+
+  .header__logo-text {
+    font-size: 1.25rem;
+  }
+}
