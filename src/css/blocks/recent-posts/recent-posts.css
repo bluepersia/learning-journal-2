@@ -1,5 +1,6 @@
 .recent-posts {
   padding: 2.125em 0 2.68em;
+  background-color: var(--color-white-2);
 }
 
 .recent-posts__list {
