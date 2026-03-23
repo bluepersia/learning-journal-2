@@ -3,6 +3,11 @@
   padding: 2em 0 3.1em;
 }
 
+.main-post__section {
+  max-width: 844px;
+  margin: 0 auto;
+}
+
 .main-post__date {
   font-size: 0.75rem;
   color: var(--color-black-5);
@@ -10,7 +15,7 @@
 }
 
 .main-post__title {
-  font-size: 2rem;
+  font-size: clamp(2rem, 1.823rem + 0.683vw, 2.25rem);
   margin-bottom: 0.5em;
 }
 
@@ -24,4 +29,28 @@
   object-fit: cover;
   object-position: 0 -15em;
   margin-bottom: 2.18em;
+}
+
+@media (min-width: 1000px) {
+  .main-post {
+    padding: 4.43em 0;
+  }
+
+  .main-post__date {
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+  }
+
+  .main-post__title {
+    margin-bottom: 0.75em;
+  }
+
+  .main-post__desc {
+    margin-bottom: 2.25em;
+  }
+
+  .main-post__img {
+    object-position: 0 -40em;
+    margin-bottom: 2.25em;
+  }
 }
