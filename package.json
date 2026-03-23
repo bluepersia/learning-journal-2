@@ -15,5 +15,10 @@
     "url": "https://github.com/bluepersia/learning-journal-2/issues"
   },
   "homepage": "https://github.com/bluepersia/learning-journal-2#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  }
 }
