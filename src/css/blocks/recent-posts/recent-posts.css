@@ -1,0 +1,28 @@
+.recent-posts {
+  padding: 2.125em 0 2.68em;
+}
+
+.recent-posts__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(309px, 1fr));
+  row-gap: 2.56em;
+  column-gap: 1.625em;
+  margin-bottom: 1.68em;
+}
+
+.recent-posts__view-more {
+  font-family: inherit;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: var(--color-black-3);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto;
+  transition: color 300ms;
+  cursor: pointer;
+}
+.recent-posts__view-more:hover,
+.recent-posts__view-more:focus {
+  color: var(--color-gray);
+}
