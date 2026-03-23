@@ -1,0 +1,18 @@
+.footer {
+  padding: 2.31em 0;
+  text-align: center;
+  background-color: var(--color-dark-gray);
+}
+
+.footer__title,
+.footer__copyright {
+  font-size: 0.75rem;
+}
+
+.footer__title {
+  color: var(--color-white-3);
+}
+
+.footer__copyright {
+  color: var(--color-white-4);
+}
