@@ -1,0 +1,88 @@
+const posts = [
+  {
+    date: "2022-07-23",
+    title: "Blog one",
+    img: "./images/laptop-code.png",
+    alt: "Laptop with code editor open",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog two",
+    img: "./images/lightbulb-dusk.png",
+    alt: "Woman's hand holding up a lightbulb at dusk",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog three",
+    img: "./images/purple-luminous.png",
+    alt: "Luminous purple colors",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog four",
+    img: "./images/girl-beach-sun.png",
+    alt: "Girl dancing on the beach, in front of the sun",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog five",
+    img: "./images/react-project.png",
+    alt: "React coding project on a screen",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog six",
+    img: "./images/laptop-webdesign.png",
+    alt: "Laptop with web design project open",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog one",
+    img: "./images/laptop-code.png",
+    alt: "Laptop with code editor open",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog two",
+    img: "./images/lightbulb-dusk.png",
+    alt: "Woman's hand holding up a lightbulb at dusk",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog three",
+    img: "./images/purple-luminous.png",
+    alt: "Luminous purple colors",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog four",
+    img: "./images/girl-beach-sun.png",
+    alt: "Girl dancing on the beach, in front of the sun",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog five",
+    img: "./images/react-project.png",
+    alt: "React coding project on a screen",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+  {
+    date: "2022-07-23",
+    title: "Blog six",
+    img: "./images/laptop-webdesign.png",
+    alt: "Laptop with web design project open",
+    desc: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+  },
+];
+
+export default posts;
