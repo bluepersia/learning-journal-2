@@ -2,9 +2,11 @@
   position: relative;
   color: var(--color-white);
   padding: clamp(5.43em, -3.38em + 34.048vw, 17.9em) 0 1.56em;
+  transition: filter 300ms;
 }
 
-.hero__inner > *:not(.hero__img) {
+.hero__title,
+.hero__desc {
   max-width: 657px;
 }
 
@@ -28,6 +30,18 @@
   object-position: 0 -18em;
   z-index: -1;
   filter: brightness(60%);
+}
+
+.hero__read-more {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero:hover {
+  filter: brightness(130%);
 }
 
 @media (min-width: 1000px) {
