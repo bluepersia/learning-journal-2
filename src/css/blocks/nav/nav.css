@@ -16,3 +16,9 @@
 .nav__link:focus {
   color: var(--color-gray);
 }
+
+@media (min-width: 1000px) {
+  .nav__link {
+    font-size: 1rem;
+  }
+}
