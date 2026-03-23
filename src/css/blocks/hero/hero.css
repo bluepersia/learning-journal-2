@@ -1,7 +1,11 @@
 .hero {
   position: relative;
   color: var(--color-white);
-  padding: 5.43em 0 1.56em;
+  padding: clamp(5.43em, -3.38em + 34.048vw, 17.9em) 0 1.56em;
+}
+
+.hero__inner > *:not(.hero__img) {
+  max-width: 657px;
 }
 
 .hero__date {
@@ -10,7 +14,7 @@
 }
 
 .hero__title {
-  font-size: 2rem;
+  font-size: clamp(2rem, 1.647rem + 1.365vw, 2.5rem);
   margin-bottom: 0.25em;
 }
 
@@ -24,4 +28,21 @@
   object-position: 0 -18em;
   z-index: -1;
   filter: brightness(60%);
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    padding: 17.9em 0 3.68em;
+  }
+
+  .hero__date {
+    font-size: 1rem;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__img {
+    object-position: 0 -46em;
+  }
 }
