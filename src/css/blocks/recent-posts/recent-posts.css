@@ -26,3 +26,9 @@
 .recent-posts__view-more:focus {
   color: var(--color-gray);
 }
+
+@media (min-width: 1000px) {
+  .recent-posts__list {
+    margin-bottom: 2em;
+  }
+}

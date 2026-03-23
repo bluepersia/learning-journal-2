@@ -30,3 +30,9 @@
 .post-card__desc {
   color: var(--color-gray);
 }
+
+@media (min-width: 1000px) {
+  .post-card__date {
+    margin-bottom: 1em;
+  }
+}
