@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --font-source-sans-pro: "Source Sans 3", sans-serif;
+
+  --color-white: #fff;
+  --color-black: #0e0e0e;
+  --color-black-2: #090909;
+  --color-white-2: #fafafa;
+  --color-black-3: #000000;
+  --color-black-4: #141414;
+  --color-gray: #505050;
+  --color-dark-gray: #202020;
+  --color-black-5: #151515;
+  --color-white-3: #ececec;
+  --color-white-4: #d7d7d7;
+}
+
+body {
+  font-family: var(--font-source-sans-pro);
+}
+
+button,
+input,
+img {
+  display: block;
+}
+
+button {
+  width: fit-content;
+}
