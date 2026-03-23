@@ -10,7 +10,7 @@ export default function RecentPosts(root, startPage = 2) {
 
   const viewMoreBtn = document.getElementById("view-more");
 
-  viewMoreBtn.addEventListener("click", handleViewMoreClick);
+  viewMoreBtn?.addEventListener("click", handleViewMoreClick);
 
   renderInitial();
 
