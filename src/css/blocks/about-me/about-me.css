@@ -1,0 +1,17 @@
+.about-me {
+  background-color: var(--color-white-2);
+}
+
+.about-me__header {
+  margin-bottom: 3.1em;
+}
+
+.about-me__profile-img {
+  width: 11.3em;
+  margin-bottom: 1.6em;
+}
+
+.about-me__title {
+  font-size: 2.12rem;
+  margin-bottom: 0.47em;
+}
