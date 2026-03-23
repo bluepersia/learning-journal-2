@@ -1,0 +1,27 @@
+.main-post {
+  background-color: var(--color-white-2);
+  padding: 2em 0 3.1em;
+}
+
+.main-post__date {
+  font-size: 0.75rem;
+  color: var(--color-black-5);
+  margin-bottom: 1.25em;
+}
+
+.main-post__title {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.main-post__desc {
+  margin-bottom: 2.18em;
+}
+
+.main-post__img {
+  width: 100%;
+  height: clamp(11.9em, -1.241em + 50.785vw, 30.5em);
+  object-fit: cover;
+  object-position: 0 -15em;
+  margin-bottom: 2.18em;
+}
