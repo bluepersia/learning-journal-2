@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Learning Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+3:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Global CSS-->
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/utilities.css" />
+
+    <!--Blocks-->
+    <link rel="stylesheet" href="./src/css/blocks/header/header.css" />
+    <link rel="stylesheet" href="./src/css/blocks/nav/nav.css" />
+    <link rel="stylesheet" href="./src/css/blocks/hero/hero.css" />
+    <link
+      rel="stylesheet"
+      href="./src/css/blocks/recent-posts/recent-posts.css"
+    />
+    <link rel="stylesheet" href="./src/css/blocks/post-card/post-card.css" />
+    <link rel="stylesheet" href="./src/css/blocks/footer/footer.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a href="index.html" class="header__logo-link" aria-label="Go to home">
+          <img class="header__logo-icon" src="./images/logo.png" alt="" />
+          <p class="header__logo-text">My learning Journal</p>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">About Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article class="main-post">
+        <div class="main-post__inner container">
+          <header class="main-post__section">
+            <time class="main-post__date uppercase" datetime="2022-07-23"
+              >July 23, 2022</time
+            >
+            <h1 class="main-post__title">
+              My new journey as a bootcamp student.
+            </h1>
+            <p></p>
+          </header>
+
+          <img
+            class="main-post__img"
+            src="./images/laptop-dusk.png"
+            alt="Laptop on a desk with a window view at dusk"
+          />
+
+          <div class="main-post__section page-body page-body--lg">
+            <section class="page-body__section">
+              <h2 class="page-body__title">How I stay committed to learning</h2>
+              <p class="page-body__para">
+                I like to think of myself as a lifelong learner. I used to spend
+                hours and hours learning, then try to create simple projects
+                using what I learned or work new techniques into existing
+                projects.
+              </p>
+              <p class="page-body__para page-body__para--last">
+                While that was fun, I felt like it would be helpful to share
+                what I was learning and most things about my journey with the
+                world.
+              </p>
+            </section>
+            <section class="page-body__section page-body__section--last">
+              <h2 class="page-body__title">How I got started</h2>
+              <p class="page-body__para">
+                I started simple and gradually grew my learning journal site. I
+                would take notes about what I was learning. After each learning
+                session, I'd use my notes to not only reflect on what I learned
+                but also write short summaries of what I learned using my own
+                words.
+              </p>
+              <p class="page-body__para page-body__para--last">
+                That helped me grok what I was learning, and I realized that
+                posting my learning summaries was also helping others learn and
+                stay motivated.
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <section class="recent-posts">
+        <section class="recent-posts__inner container">
+          <h2 class="recent-posts__title">Recent posts</h2>
+
+          <ul class="recent-posts__list list-reset" id="recent-posts-list"></ul>
+
+          <button class="recent-posts__view-more" id="view-more">
+            View More
+          </button>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__title">My Learning Journal</p>
+      <p class="footer__copyright">Copyright ©2022</p>
+    </footer>
+
+    <script src="./src/js/home.js" type="module"></script>
+  </body>
+</html>
