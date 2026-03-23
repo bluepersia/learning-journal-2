@@ -1,0 +1,28 @@
+.page-body__section {
+  margin-bottom: 1.1em;
+}
+.page-body__section--last {
+  margin-bottom: 0;
+}
+
+.page-body__title {
+  margin-bottom: 1.1em;
+}
+
+.page-body__para {
+  margin-bottom: 1.1em;
+}
+
+.page-body__para--last {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1000px) {
+  .page-body--lg .page-body__title {
+    font-size: 1.5rem;
+  }
+
+  .page-body--lg .page-body__para {
+    font-size: 1.125rem;
+  }
+}
