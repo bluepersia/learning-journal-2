@@ -35,6 +35,9 @@
 }
 
 @media (min-width: 1000px) {
+  .recent-posts__title {
+    font-size: 1.5rem;
+  }
   .recent-posts__list {
     margin-bottom: 2em;
   }

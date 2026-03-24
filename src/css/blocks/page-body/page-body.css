@@ -17,6 +17,10 @@
   margin-bottom: 0;
 }
 
+.page-body__title {
+  font-size: 1rem;
+}
+
 @media (min-width: 1000px) {
   .page-body--lg .page-body__title {
     font-size: 1.5rem;
@@ -24,5 +28,13 @@
 
   .page-body--lg .page-body__para {
     font-size: 1.125rem;
+  }
+
+  .page-body--md .page-body__title {
+    font-size: 1.25rem;
+  }
+
+  .page-body--md .page-body__para {
+    font-size: 1rem;
   }
 }
